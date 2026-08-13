@@ -1,0 +1,4 @@
+### Raciocínio das Decisões de Limpeza:
+1. **Remoção de Identificadores:** A coluna `student_id` foi removida por tratar-se apenas de um chave primária sem valor preditivo.
+2. **Correção de Inconsistências Físicas:** Valores como horas de sono/estudo negativas ou presenças superiores a 100% foram convertidos para `NaN` e posteriormente imputados, evitando viés no treinamento.
+3. **Estratégia de Imputação:** Optou-se pela **mediana** para variáveis numéricas por ser uma medida central insensível a potenciais outliers, e pela **moda** para variáveis categóricas para preservar as distribuições originais sem descalibrar a amostra[cite: 1].

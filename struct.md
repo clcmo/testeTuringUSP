@@ -3,10 +3,10 @@ case-turing-2026/
 │   ├── q1.py
 │   ├── q2.py
 │   ├── q3.py
-│   └── desafio_logica.py  (opcional)
+│   └── desafio.py
 ├── analise/
 │   └── analise_e_predicao.ipynb
 ├── turing_talks/
-│   └── turing_talks.pdf  (opcional)
+│   └── turing_talks.pdf
 ├── .gitignore
 └── README.md
